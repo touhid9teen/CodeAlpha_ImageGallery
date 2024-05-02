@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    background-color: #f0f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #0f4648;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#gallery {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.1);
+}
+
+#mainImage {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 10px solid #ccd3df; /* Frame */
+    box-shadow: 0 0 20px #f0f4f9, /* Neon effect */
+                 0 0 40px #f0f4f9,
+                 0 0 60px #f0f4f9,
+                 0 0 80px #f0f4f9;
+}
+
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border: 5px solid #ccd3df; /* Frame */
+    box-shadow: 0 0 20px #f0f4f9, /* Neon effect */
+                 0 0 40px #f0f4f9,
+                 0 0 60px #f0f4f9,
+                 0 0 80px #f0f4f9;
+    cursor: pointer;
+}
+
+#cycleToggleButton {
+    background-color: #ccd3df;
+    border: 2px solid #a3aeb9;
+    color: black);
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    
+    font-size: 1.2  rem;
+    font:bold;
+}
+
+#cycleToggleButton:hover {
+    border-color: #a3aeb9;
+    background-color: white;
+}
